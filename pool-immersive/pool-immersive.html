@@ -16,22 +16,21 @@
 <!-- navbar -->
 <nav class="navbar">
     <ul class="link-group">
-        <li class="link active"><a href="#">home</a></li>
-        <li class="link"><a href="#">project</a></li>
-        <li class="link"><a href="#">about</a></li>
-        <li class="link"><a href="#">contact</a></li>
+        <li class="link active"><a href="#home">home</a></li>
+        <li class="link"><a href="#projects">projects</a></li>
+        <li class="link"><a href="#about">about</a></li>
+        <li class="link"><a href="#contact">contact</a></li>
     </ul>
 </nav>
 
 <!-- home section -->
-
-<section class="home-section active">
+<section id="home" class="home-section active">
     <h1 class="hero-heading">hello, <br> POOOOOOL</h1>
     <img src="C:\Users\chuang\Documents\GitHub\computational-design-workflows\pool-immersive\pool.gif" class="home-img" alt="">
 </section>
 
 <!-- project section -->
-<section class="project-section active">
+<section id="projects" class="project-section active">
     <h1 class="project-heading">projects</h1>
     <div class="project-container">
         <div class="project-card">
@@ -75,17 +74,21 @@
 </section>
 
 <!-- about section -->
-<section class="about-section active">
+<section id="about" class="about-section active">
     <div class="about">
         <div class="about-img-container">
             <img src="C:\Users\chuang\Documents\GitHub\computational-design-workflows\pool-immersive\pool.gif" class="about-img" alt="">
         </div>
-        <p class="about-info">The newly created signature ambient experience, along with a large-scale, site-specific installation, transform any space into an imaginary pool where sound becomes matter and matter grows into forms. </p>
+            <p class="about-info">The newly created signature ambient experience, along with a large-scale, site-specific installation, transform any space into an imaginary pool where sound becomes matter and matter grows into forms. </p>
+        <video width="1050" height="460" controls>
+            <source src=”C:\Users\chuang\Documents\GitHub\computational-design-workflows\pool-immersive\vid.MOV” type=video/ogg>
+            <source src="C:\Users\chuang\Documents\GitHub\computational-design-workflows\pool-immersive\vid.MOV" type=video/mp4 class="about-vid">
+        </video>
     </div>
 </section>
 
 <!-- contact section -->
-<section class="contact-section active">
+<section id="contact" class="contact-section active">
     <form class="contact-form">
         <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
         <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
