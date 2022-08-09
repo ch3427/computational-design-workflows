@@ -66,6 +66,13 @@ body{
     font-weight: 300;
 }
 
+.secondary-heading{
+    color: #fff;
+    font-size: 30px;
+    text-transform: lowercase;
+    font-weight: 300;
+}
+
 .home-img{
     position: absolute;
     top: 0;
@@ -104,7 +111,7 @@ body{
 
 .project-heading{
     font-size: 100px;
-    background: #9a9a9a;
+    background: #252525;
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 50px;
@@ -122,6 +129,11 @@ body{
 
 .project-card{
     height: 400px;
+    position: relative;
+}
+
+.result-card{
+    height: 600px;
     position: relative;
 }
 
@@ -186,6 +198,14 @@ body{
     opacity: 1;
 }
 
+.result-card:hover .project-img{
+    filter: blur(20px);
+}
+
+.result-card:hover .project-content{
+    opacity: 1;
+}
+
 /* about-section */
 
 .about-section{
@@ -233,24 +253,7 @@ body{
     opacity: 0.2;
 }
 
-.download-cv-btn{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    text-transform: capitalize;
-    cursor: pointer;
-    transition: .5s;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.download-download-cv-btn:hover{
-    background: #000;
-}
+/* contact-section */
 
 .contact-section{
     position: absolute;
